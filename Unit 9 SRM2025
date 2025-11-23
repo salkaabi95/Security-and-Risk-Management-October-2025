@@ -1,0 +1,39 @@
+Unit 9: Risk, Business Continuity and Disaster Recovery
+Unit 9 Reflection 
+What?
+Unit 9 explored the practical aspects of planning for disruptions through Business Continuity (BC) and Disaster Recovery (DR). This content moved beyond theoretical risk assessment and introduced operational tools that organisations use to withstand failures—whether technical, physical, or cyber-related. The lecturecast introduced the concepts of BC, DR, RTO, RPO, and how Business Impact Assessments (BIAs) connect directly to recovery planning.
+The required reading by Andrade et al. (2017) provided a detailed case study of a cloud-based DRaaS architecture. Their paper modelled system availability using stochastic Petri nets, comparing different replication strategies, failure scenarios, and resource configurations. This analysis demonstrated how architectural decisions (e.g., synchronous vs asynchronous replication) translate into different availability levels, costs, and risk profiles.
+The seminar activities asked us to identify recovery objectives in hypothetical scenarios and evaluate appropriate DR solutions. Meanwhile, collaborative work in Discussion 2 was ongoing, and Unit 9 concluded with the requirement to submit a 300-word summary synthesising the critique of CVSS, peer feedback and insights gained across Units 7–9.
+I also started drafting my own BIA table, identifying key processes (order fulfilment, customer communication, payment systems, inventory management) and assigning RTO/RPO values while reflecting on dependencies such as cloud services, staff availability, and network connectivity.
+________________________________________
+So what?
+This unit highlighted that BC and DR are not simply “technical tasks”—they are strategic risk-management functions that determine how resilient an organisation actually is. Several insights stood out:
+1.	BC and DR translate risk into operational commitments.
+RTO and RPO force organisations to explicitly state how much downtime and data loss they can survive. These constraints directly shape architectural choices, investment decisions and staff responsibilities.
+2.	Recovery capability is a business decision, not just an IT one.
+Andrade et al.’s analysis made this clear: different DRaaS configurations offer different levels of availability and cost. There is no “perfect DR solution”; instead, organisations must find a balance aligned with their risk appetite and legal obligations.
+3.	A well-designed BIA is foundational.
+Without clarity on which processes are critical, an organisation can easily overspend (setting unrealistically low RTO/RPO targets) or underspend (creating dangerous operational gaps).
+4.	The material linked naturally with Units 7–8.
+Monte Carlo simulations could be applied to estimate recovery time uncertainty. Bayesian methods could update failure probabilities as more evidence accumulates. Attack trees (Unit 8 reading) could model system failures or cyber-attacks leading to outages.
+5.	Human factors matter.
+Even with strong DR infrastructure, recovery may fail without trained staff, rehearsed procedures, and clear communication protocols.
+Emotionally, this unit made the consequences of poor planning feel more tangible: a business without a tested DR plan risks total operational collapse from a single outage. It also made me appreciate how BC/DR planning intersects with customer trust, regulatory compliance and long-term reputation.
+________________________________________
+Now what?
+For future project work and my professional development, I plan to:
+•	Integrate BIA, RTO and RPO more systematically into project planning and security assessments, rather than treating them as add-ons.
+•	Use quantitative modelling from Units 7–8 to estimate downtime likelihoods, failover reliability, and recovery distributions.
+•	Incorporate DRaaS options into risk recommendations where cloud services are part of the architecture, mapping them explicitly to expected availability levels.
+•	Document dependencies (e.g., power, LAN/WAN availability, staff, suppliers) when designing BC strategies.
+•	Encourage periodic testing (tabletop exercises, failover tests, backup restores) because DR plans are ineffective without validation.
+•	Bring Unit 9 insights into my Unit 11 final project, especially when developing mitigation strategies for digitalisation scenarios.
+Overall, Unit 9 reinforced that resilience is not about eliminating risk but ensuring the organisation can continue operating, recover gracefully, and minimise impact when disruptions occur.
+________________________________________
+4. References (Unit 9)
+•	Andrade, E., Nogueira, B., Matos, R., Callou, G. & Maciel, P. (2017). Availability modeling and analysis of a disaster-recovery-as-a-service solution. Computing, 99(10), 929–954.
+•	Popov, G., Lyon, B.K. & Hollcroft, B.D. (2022). Risk Assessment. CRC Press.
+•	Additional conceptual sources:
+o	National Institute of Standards and Technology (NIST) – SP 800-34 Rev.1: Contingency Planning Guide for Federal Information Systems.
+o	ISO 22301:2019 – Security and resilience — Business continuity management systems.
+
