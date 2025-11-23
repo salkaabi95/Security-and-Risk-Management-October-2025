@@ -1,0 +1,29 @@
+Unit 7: An Introduction to the Concepts of Quantitative Risk Modelling
+
+Unit 7 Reflection 
+What?
+Unit 7 was my first structured deep dive into quantitative risk modelling (QRM). Until now, my thinking was largely qualitative or semi-quantitative (e.g. 1–5 scales). This unit introduced:
+•	Monte Carlo simulation, tracing back to Metropolis and Ulam’s work at Los Alamos, where random sampling was used to approximate solutions to complex problems that were intractable analytically.
+•	Bayesian methods, as presented in Downey’s Think Bayes 2, which show how priors and evidence can be combined algorithmically to update risk estimates.
+•	Multi-criteria decision-making (MCDM) techniques such as AHP and ANP, alongside a critical review by Asadabadi et al. (2019) questioning their practical validity and sensitivity to subjective judgements.
+Practically, I:
+•	Implemented a simple Monte Carlo simulation in Python based on a tutorial by Fizell (2022), which walked through defining uncertain variables, drawing random samples, running many trials and analysing the resulting distribution.
+•	Completed chapter 1–2 exercises from Think Bayes 2, working with discrete probability distributions in notebooks to solve problems using Bayes’ theorem.
+•	Started Collaborative Discussion 2 by reading Wunder et al. (2024) on CVSS scoring inconsistencies and preparing an initial post about its weaknesses and possible alternatives.
+I recorded code snippets, outputs and notes in my e-portfolio.
+________________________________________
+So what?
+This unit significantly changed how I think about “numbers” in risk management.
+First, Monte Carlo showed me that instead of guessing a single “expected loss”, I can model a distribution of possible outcomes. By specifying ranges or distributions for input variables (e.g. frequency, impact), I can estimate things like:
+•	Probability that annual loss exceeds a given threshold
+•	90th percentile (or VaR-style) loss estimate
+This makes risk conversations more nuanced: instead of “risk is high/medium”, I can say “there is a 10% chance loss exceeds £X”.
+Second, Bayesian thinking helped me understand how to incorporate new evidence into existing beliefs. Rather than re-starting from scratch each time, Bayes’ theorem provides a principled way to update probabilities. In Think Bayes 2, the use of discrete distributions and code rather than heavy algebra made the ideas more intuitive and directly implementable in Python.
+Third, reading Asadabadi et al. made me more critical of MCDM methods like AHP and ANP. The paper highlights issues such as:
+•	Rank reversal (changing rankings when irrelevant alternatives are added)
+•	Heavy reliance on subjective pairwise comparisons
+•	Potential lack of validity from a firm’s perspective, despite formal structure
+This connected back to earlier modules on qualitative risk: even when methods look “quantitative” or “formal”, their outputs can still conceal subjectivity and methodological weaknesses.
+Emotionally, Unit 7 was a mix of excitement and discomfort. I enjoyed seeing risk become something I could simulate, but I also felt the weight of choosing assumptions and priors: the models are only as good as the inputs and structure I define.
+
+
