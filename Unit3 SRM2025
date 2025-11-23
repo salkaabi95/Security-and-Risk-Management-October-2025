@@ -1,0 +1,48 @@
+
+
+Across Units 1–3, my understanding of security risk has evolved from foundational concepts of risk and uncertainty into a more structured understanding of assessment, user participation and threat modelling. Unit 1 established the conceptual basis for risk, drawing on Aven and Thekdi’s framing of risk as “consequences and associated uncertainties.” This helped me recognise that risk is not purely technical; it is shaped by social, organisational and contextual factors. Peer feedback during the discussion reinforced this view, particularly where contributors highlighted the dangers of relying solely on private digital infrastructures or rapidly converging IT/OT systems without robust governance.
+
+Unit 2 expanded this foundation by contrasting qualitative and quantitative assessment approaches. Reading the Open FAIR™ methodology showed how quantitative models can provide clarity and financial justification, while AIRMIC’s ERM perspective emphasised the governance role of users and stakeholders in shaping meaningful risk outcomes. My peers also emphasised that excluding affected users leads to inaccurate risk pictures—an insight that connects directly to fairness and accountability concerns raised in the Week 1 discussion brief.
+
+Unit 3 introduced practical threat-modelling tools such as STRIDE, DREAD, Attack Trees and PASTA. The Threat Modeling Manifesto and Shevchenko et al.’s survey helped me recognise that no single method fits every context; instead, models should be selected based on system complexity, threat landscape and available expertise. Combined with earlier units, this highlights that risk management must integrate structured modelling with stakeholder participation and critical judgement.
+
+Overall, feedback from peers and the readings across the three units helped me develop a more holistic understanding of risk—one that balances quantitative rigour, human factors, and systematic threat analysis.
+
+4. Unit 3 Reflection 
+
+(Follows What? / So what? / Now what?)
+
+What?
+
+Unit 3 introduced the distinction between threats and vulnerabilities and exposed me to several threat-modelling techniques used in practical security engineering. STRIDE provided a structured way to evaluate common threat categories, while DREAD offered a scoring model for prioritising threats. Attack Trees helped visualise attacker goals and the steps required to achieve them, and PASTA presented a more holistic, risk-driven approach that integrates multiple stages of analysis from business impact to attack simulation (Shevchenko et al., 2018). The Threat Modeling Manifesto (Shostack et al., 2020) also offered guiding principles for selecting and applying models effectively.
+
+So what?
+
+This unit significantly reframed how I think about risk identification. In earlier units, I focused heavily on assessment methods and user participation, but Unit 3 showed me that threat modelling is the missing link between abstract risk concepts and concrete system design decisions. Tools such as STRIDE and Attack Trees turn vague concerns into specific, testable scenarios. At the same time, exploring PASTA made me aware that threat modelling should be iterative and business-aligned—not just a checklist.
+Emotionally, I found this week empowering; threat modelling felt practical and actionable compared with the more theoretical focus of Units 1 and 2. However, I also noticed how quickly threat modelling can become overwhelming when models are used mechanically rather than thoughtfully. Peer feedback helped me recognise that the choice of model should depend on context: for example, STRIDE for data-flow diagrams, Attack Trees for high-level adversary scenarios, and PASTA for complex socio-technical systems. This reinforced the idea that modelling is about reasoning and communication, not compliance.
+
+Now what?
+
+Going forward, I intend to apply threat-modelling tools more deliberately. For the team project, I plan to:
+
+Map out system boundaries using STRIDE, focusing on data-flow diagrams
+
+Use Attack Trees to visualise attacker strategies and identify weak points
+
+Integrate elements of PASTA where business impacts or user roles create additional complexity
+
+Document all assumptions and ensure they are validated with the team during collaborative sessions
+
+Finally, I will include screenshots or summaries of my modelling outputs in the e-portfolio to demonstrate development. This unit strengthened my confidence in bridging theory and practice, and it will heavily inform how I approach the upcoming units on risk mitigation and security controls.
+
+5. References (Unit 3)
+
+Aven, T. and Thekdi, S. (2025) Risk Science. Routledge.
+
+NIST (2022) Computer Security Resource Center.
+
+Shevchenko, N. et al. (2018) Threat Modeling: A Summary of Available Methods. Carnegie Mellon University SEI.
+
+Shostack, A. et al. (2020) Threat Modeling Manifesto.
+
+Tarandach, I. and Coles, M. (2020) Threat Modeling, Chapter 3.
