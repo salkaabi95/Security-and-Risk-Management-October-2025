@@ -1,0 +1,17 @@
+Unit 6 Reflection 
+What?
+Unit 6 brought together the conceptual work of earlier units and applied it to real standards and concrete organisational scenarios. The key focus was on the practical implications of frameworks such as GDPR, PCI DSS, HIPAA, and national cyber guidelines in shaping security and risk management strategies.
+Using material from the ICO’s GDPR guide, I reviewed which GDPR principles apply to different data-processing situations (e.g. lawfulness, data minimisation, storage limitation, and accountability). In parallel, I examined the applicability of PCI DSS for businesses handling card payments and how HIPAA might apply in healthcare contexts. Sutton’s Information Risk Management and other guidance helped frame how these standards translate into practical controls and governance structures.
+The main applied task was the Pampered Pets team report, which functioned as a status document. Our team selected a hybrid ISO 31000 / NIST SP 800-30 approach: ISO 31000 for overall risk management structure and principles, and NIST SP 800-30 to guide IT-focused risk assessment and documentation. We evaluated both the current state (largely analogue with minimal IT) and the proposed digitalisation (e-commerce, ERP, cloud, international supply chain). I contributed to the methodology justification, risk tables and mitigation recommendations.
+Finally, I completed an individual peer review, assessing team members’ contributions against criteria such as quality of work, collaboration and reliability.
+________________________________________
+So what?
+Unit 6 shifted my thinking about standards from “lists of rules” to practical levers for shaping risk posture. Through the Pampered Pets exercise, I saw how standards:
+•	Provide structure for risk assessment (ISO 31000 context → assessment → treatment → monitoring)
+•	Define minimum expectations (e.g. PCI DSS for payment environments, GDPR for personal data) rather than an optional nice-to-have
+•	Translate directly into controls and mitigations, such as access controls, encryption, logging, backup policies and incident response planning (ISO 27001, NCSC “10 Steps”).
+Working through the status quo and digitalisation scenarios made me confront the trade-offs between opportunity and exposure. Digitalisation can significantly increase revenue for SMEs but also expands the attack surface and legal obligations. I realised that standards help make those trade-offs explicit and defensible, rather than ad-hoc.
+On the team side, the peer review reminded me how crucial collaboration and fairness are in group work. Reflecting on my own behaviour, I noticed that I tend to take on a lot of analytical work and sometimes rush ahead; Unit 6 showed me the value of slowing down to align with the team and ensure that everyone understands and agrees with the chosen methodology.
+Emotionally, this unit made me feel more like a “practitioner in training” rather than just a student: I was making decisions that resemble what an information security manager or risk consultant would actually do.
+________________________________________
+
