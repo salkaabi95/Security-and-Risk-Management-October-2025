@@ -1,0 +1,42 @@
+Unit 10: Practical Applications and Issues in DR Implementations
+Unit 10 Reflection
+What?
+Unit 10 explored the practical challenges involved in implementing real-world disaster recovery solutions, focusing strongly on how RTO and RPO values guide architecture decisions. The lecture introduced typical DR designs—hot standby, warm standby, cold backup, multi-cloud replication and DRaaS—and explained how each model supports different recovery objectives.
+The required reading provided deeper insight. Alhazmi & Malaiya (2013) evaluated the reliability and availability of cloud-based disaster recovery, showing that shifting DR to the cloud does not automatically guarantee resilience; the solution still depends on redundancy, geographic distribution, network reliability and the chosen replication method. Their analysis highlighted conditions in which cloud DR improves resilience, and conditions in which it introduces new vulnerability—especially around latency, bandwidth limitations and service outages.
+Kumar (2024) examined cloud vendor lock-in, identifying technical, financial and organisational dependencies that make it difficult for customers to migrate away from a provider once they adopt proprietary APIs, managed services, or platform-specific features. Lock-in has significant DR implications because a DR strategy tied too tightly to a single vendor’s ecosystem may fail if that vendor’s region or service experiences a large outage.
+Corbari et al. (2024) introduced Mission Thread Analysis (MTA), a structured method for analysing mission-critical activities end-to-end. MTA helped me understand DR design from a systems-engineering viewpoint: rather than focusing solely on infrastructure components, it focuses on how entire workstreams (communication, logistics, service delivery, monitoring) remain functional during disruption.
+The seminar activities required me to apply these concepts by identifying lock-in risks and cloud-security concerns, and designing strategies to mitigate them.
+________________________________________
+So what?
+This unit revealed several gaps in my previous thinking. First, I realised how easily organisations unintentionally lock themselves into a cloud provider simply by adopting convenience features (e.g., AWS Lambda, BigQuery, Azure AD integration). While these services accelerate deployment, they make DR design significantly harder because:
+•	Multi-cloud failover becomes expensive or impossible
+•	Architecture must be rewritten to migrate
+•	Backup/replication pipelines often depend on proprietary tools
+I now appreciate that DR planning must begin before adopting cloud services—not after. If lock-in is not considered early, resilience becomes constrained by the provider’s own SLAs and regional robustness.
+Second, I gained a more realistic understanding of DRaaS limitations. Although cloud-based DR solutions appear attractive (“automatic failover”, “replicate everything”), the reality is that:
+•	Network availability becomes a single point of failure
+•	Replication lag affects RPO (asynchrony creates data-loss windows)
+•	DRaaS may only cover parts of the environment (e.g., VMs but not SaaS apps)
+•	Failover orchestration still requires human intervention and testing
+•	Trust boundaries shift to the cloud provider’s security posture
+This resonated with the DRaaS evaluation in Alhazmi & Malaiya’s study, which demonstrated variability in actual availability depending on configuration.
+Finally, MTA changed how I think about DR design: instead of viewing systems in isolation, the method insists on understanding workflows. Mission success depends on the entire sequence of actions—not just database replication or VM failover.
+Emotionally, this unit increased my respect for the complexity of DR. Designing for resilience means balancing cost, complexity, performance and organisational constraints while anticipating rare but catastrophic events.
+________________________________________
+Now what?
+Moving forward, I plan to:
+•	Apply mission thread analysis when designing DR strategies for the final project, ensuring that every step in the operational workflow can continue during disruption.
+•	Adopt vendor-neutral architectural patterns where possible: containerisation, open-source databases, infrastructure-as-code, cloud-agnostic orchestration, and S3-compatible storage.
+•	When evaluating cloud services, explicitly document lock-in risks—technical, financial, legal—and propose mitigation strategies (e.g., portable data formats, cross-cloud backups).
+•	Strengthen DR recommendations by linking RTO/RPO values to specific technical designs (e.g., synchronous replication → low RPO, hot failover → low RTO).
+•	Treat DRaaS carefully, using it as part of a hybrid strategy rather than assuming it provides full organisational resilience.
+•	Support recommendations with quantitative analysis from earlier units (e.g., Monte Carlo simulation to estimate downtime distributions).
+Unit 10 reinforced that strong DR design depends not only on technical mechanisms, but also on vendor strategy, system dependencies and long-term architectural decisions.
+________________________________________
+4. References (Unit 10)
+•	Alhazmi, O. & Malaiya, Y. (2013). Evaluating Disaster Recovery Plans using the Cloud. Proceedings of the Annual Reliability and Maintainability Symposium.
+•	Kumar, A. (2024). Cloud Vendor Lock-In: Identify, Strategies and Mitigate.
+•	Corbari, G.I., Khatod, N., Popiak, J.F. & Sinclair, P. (2024). Mission Thread Analysis: Establishing a Common Framework. The Cyber Defense Review, 9(1), 37–54.
+•	Sutton, D. (2021). Information Risk Management. BCS Learning & Development Limited.
+•	Zografopoulos, I. et al. (2021). Cyber-physical energy systems security. IEEE Access, 9, 29775–29818.
+
