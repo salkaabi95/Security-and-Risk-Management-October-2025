@@ -1,0 +1,39 @@
+Unit 8: Implementing Quantitative Risk Models
+Unit 8 Reflection 
+What?
+Unit 8 extended my understanding of quantitative risk modelling by focusing on how these techniques are applied in practical, real-world scenarios. While Unit 7 helped me understand the theory, this unit demonstrated how QRM supports:
+•	Project management (estimating duration, cost risk, schedule variance)
+•	Safety engineering (estimating failure probabilities and hazard propagation)
+•	Cybersecurity risk decision-making, particularly for complex attack chains
+The Excel-based work from Eckstein & Riedmueller (2002) showed that Monte Carlo does not require specialist software—only a structured approach to defining uncertainty. Their use of YASAI demonstrated the pedagogical benefit of enabling students to visualise randomness and distribution behaviours in a familiar environment.
+Meanwhile, Aijaz & Nazir (2024) introduced a sophisticated approach for modelling social engineering threats by combining attack trees (to model attacker steps) with Markov chains (to model state transitions and probabilities). This integration addressed a limitation I had noticed in qualitative threat modelling: social engineering is dynamic, iterative and dependent on human factors, making static scoring insufficient.
+I also continued Collaborative Discussion 2, this time engaging with peers’ critiques of CVSS scoring inconsistencies. Providing peer responses helped me exercise critical analysis, especially in evaluating alternative vulnerability-scoring systems and refining my own initial post.
+Finally, I built my first end-to-end Monte Carlo model where I applied uncertainty ranges to a real scenario (annual cyber-incident loss for a small business) and produced a distribution of outcomes. This was more complex than the Unit 7 exercise because I had to define assumptions explicitly and justify them.
+________________________________________
+So what?
+This unit made the practical value—and limitations—of QRM much clearer.
+The biggest insight for me was that while Monte Carlo simulation is powerful, it is highly sensitive to assumptions. Choosing distribution types, ranges, and independence assumptions significantly changes the outcome. This forced me to critically reflect on:
+•	whether I had real data
+•	whether my ranges were reasonable
+•	whether variables should be correlated
+It also made me realise how easily quantitative models can appear authoritative while hiding subjective inputs.
+The Aijaz & Nazir paper added another layer: modelling social engineering is challenging because human behaviour is unpredictable, influenced by persuasion principles, modality effects, and contextual factors. Their use of Markov transitions to represent escalating stages of influence felt realistic and provided a systematic way to estimate both Attack Occurrence Probability (AOP) and Attack Success Probability (ASP).
+Emotionally, this unit felt empowering—QRM transformed risk from abstract categories into something I could experiment with. But it also highlighted a sense of responsibility: misuse of quantitative models could give stakeholders a false sense of precision.
+Peer responses in Discussion 2 strengthened my collaborative evaluation skills. Engaging with peers’ viewpoints helped me appreciate different interpretations of CVSS weaknesses and alternative scoring systems.
+________________________________________
+Now what?
+Going forward, I plan to:
+•	Integrate Monte Carlo techniques into my team project where uncertainty affects cost, likelihood or impact (e.g., attack frequency, supply-chain delays, revenue projections).
+•	Apply Bayesian updating whenever new evidence arrives (e.g., threat intelligence feeds, supplier reliability data, incident frequencies), clearly documenting how priors evolve.
+•	Use attack trees + Markov chains to model multi-step adversarial behaviour, especially in scenarios involving human factors or deception.
+•	Include a short QRM section in my Unit 11 final project to show how quantitative outputs complement qualitative assessments.
+•	Maintain transparency: record all assumptions, distribution choices, and limitations so that the model’s credibility remains grounded in evidence rather than appearance.
+This unit improved my technical confidence with QRM tools and reinforced the importance of combining quantitative and qualitative reasoning to build balanced, ethically responsible risk assessments.
+________________________________________
+4. References (Unit 8)
+•	Aijaz, M. & Nazir, M. (2024). Modelling and analysis of social engineering threats using the attack tree and the Markov model. International Journal of Information Technology, 16(2), 1231–1238.
+•	Eckstein, J. & Riedmueller, S.T. (2002). YASAI: Yet Another Add-in for Teaching Elementary Monte Carlo Simulation in Excel. INFORMS Transactions on Education, 2(2), 12–26. https://doi.org/10.1287/ited.2.2.12
+•	Fizell, Z. (2022). How to Create a Monte Carlo Simulation using Python. https://towardsdatascience.com/how-to-create-a-monte-carlo-simulation-using-python
+•	Zografopoulos, I. et al. (2021). Cyber-physical energy systems security: Threat modeling, risk assessment, resources, metrics, and case studies. IEEE Access, 9, 29775–29818.
+•	Downey, A. (2022). Think Bayes 2. https://allendowney.github.io/ThinkBayes2
+
