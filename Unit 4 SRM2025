@@ -1,0 +1,24 @@
+Unit 4: Application of Threat Modelling and Management Techniques
+________________________________________
+Unit 4 Reflection 
+What?
+In Unit 4 I moved from understanding threat-modelling frameworks to using them: I explored publicly available models (like the OWASP Threat Model Cookbook) and applied them to create a threat model for a scenario drawn from the industrial cyber-physical systems domain (inspired by Jbair et al., 2022). I evaluated different tools and templates, and reflected on factors such as tool maturity, domain fit and modelling clarity. I also completed the workshop activity in the seminar, which asked: What are the key elements and interdependencies in a cyber-physical system? How can threat modelling identify entry points and vulnerabilities? How can scenario-specific metrics be used to prioritise vulnerabilities? (Jbair et al., 2022) 
+So what?
+This unit significantly changed how I view threat modelling. Previously I treated frameworks (STRIDE, DREAD, Attack Trees) as theoretical tools; now I see them as selectable instruments whose usefulness depends on the context, system type and stakeholder needs. For example, using the OWASP Cookbook templates revealed that many models assume certain system architectures and may not fully capture cyber-physical interdependencies (as the Jbair study shows). This made me more critical: I learned to question whether a tool covers the domain (e.g., smart manufacturing, OT/IT convergence) and whether it allows capturing key system dependencies and metrics.
+From a personal standpoint, I felt both challenged and rewarded: challenging because modelling tools require detailed system knowledge, clear boundaries and stakeholder input; rewarding because creating my own threat model gave shape to abstract concepts and visibly improved my understanding of attack pathways, system boundaries and vulnerabilities. The evaluation exercise forced me to reflect on trade-offs: ease of use vs. model richness; generic templates vs. domain-specific customisation; and the need for stakeholder validation so the model is meaningful, not just “tick-box”.
+Now what?
+Going forward, I plan to:
+•	In our team project, explicitly decide which threat-modelling tool(s) we will use based on the scenario and system domain, using a simple decision checklist (e.g., system type, stakeholder involvement, attack surfaces, required granularity).
+•	When using templates (like OWASP Cookbook), customise them to the specific system context: ensure we map not just software flows but also physical flows, human-machine interactions and control-system dependencies (inspired by the Jbair et al. CPS study).
+•	Document in the e-portfolio not just the final threat model but the decision process: why we chose this tool, what alternative we considered, what stakeholders we consulted, what assumptions we made.
+•	Use the reflection tools (What? So what? Now what?) after each modelling session to capture immediate learning and improve subsequent iterations.
+•	Finally, embed in my model a metric-oriented view: consider entry points, actor motivations, impact magnitudes and not just threat identification—because the more precise the model, the more useful it becomes for planning mitigations and aligning with real business risk.
+By doing this, I believe I’ll build stronger artefacts for the rest of the module, and the final e-portfolio will clearly show how I applied learning, collaborated in a team context and developed my professional capability in threat modelling and management.
+________________________________________
+References (Unit 4)
+•	Jbair, M., Ahmad, B., Maple, C. & Harrison, R. (2022) ‘Threat modelling for industrial cyber physical systems in the era of smart manufacturing’, Computers in Industry, 137, p. 103611. ScienceDirect+1
+•	Ross, R., McEvilley, M. & Oren, J. (2016) Systems Security Engineering: Considerations for a Multidisciplinary Approach in the Engineering of Trustworthy Secure Systems. (Publication details)
+•	Shevchenko, N. et al. (2018) ‘Threat modelling: a summary of available methods’, Carnegie Mellon University Software Engineering Institute. CORE+1
+•	OWASP (2021) Threat Model Cookbook. GitHub repository. GitHub+1
+•	Meier, J. et al. (2003) Improving Web Application Security: Threats and Countermeasures. Chapter 3.
+
