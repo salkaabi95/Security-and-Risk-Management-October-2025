@@ -1,0 +1,38 @@
+Unit 11: Future Trends in Security and Risk Management
+Unit 11 Reflection 
+WHAT?
+Unit 11 examined the evolving landscape of Security and Risk Management, focusing on how emerging technologies, economic insights, behavioural science, and regulatory trends will influence future risk practices. The readings introduced several important shifts.
+First, Aven & Thekdi (2025) highlight that the future of risk science will increasingly rely on systemic, socio-technical models, recognising that traditional linear risk assessments no longer adequately describe today’s complex digital ecosystems. They argue that risk evaluation must integrate uncertainty, interdependencies, and behavioural elements.
+Pineiro-Chousa et al. (2017) introduce the idea of treating reputational risk as a financial option—an asset whose value can be protected and hedged through transparency, sustainability reporting, and environmental governance. This reframed reputational risk as something quantifiable, rather than an abstract ethical consideration.
+Fahimnia et al. (2019) explore behavioural operations in supply chains, showing how heuristics, loss aversion, trust, and bounded rationality affect risk decisions. Behavioural biases can amplify risk, especially in global supply chains with high uncertainty and asymmetric information.
+Ridley et al. (2018) present machine learning as the foundation of autonomous cyber defence—systems capable of detecting anomalies, evaluating threats, and orchestrating defensive actions with minimal human oversight. They emphasise that future cyber defence architectures will be shaped by AI-driven systems, continuous learning, and automated response pipelines.
+Lastly, Marks et al. (2019) discuss how to identify and select “optimal” risk management frameworks. They argue that future frameworks must balance regulatory compliance, automation potential, behavioural awareness, and resilience engineering.
+Together, these sources highlight that SRM is transforming rapidly through AI adoption, systemic thinking, and behavioural integration.
+________________________________________
+SO WHAT?
+This unit significantly altered the way I view risk management. Previously, I saw SRM mostly through operational and technical lenses—threat modelling, compliance, and mitigation strategies. Unit 11 revealed that future risk management will be more predictive, behavioural, and automated.
+The concept of reputational risk as an “option” was particularly eye-opening. It reinforced that sustainability reporting and ESG practices are not merely ethical obligations—they are strategic tools that enhance resilience and investor confidence. This is particularly relevant to digitalising SMEs like Pampered Pets, whose brand rests heavily on food quality and local-sourcing transparency.
+The behavioural perspective from Fahimnia et al. helped me recognise that risks do not arise solely from technology or processes—they come from human decisions under uncertainty. This is crucial in global supply chains, where cultural differences, bias, and risk perception influence procurement, quality assurance, and incident response.
+The material on autonomous cyber defence changed my understanding of the future security workforce. AI will increasingly monitor systems, detect anomalies, model attack paths, and implement countermeasures before humans intervene. This raises both opportunities and ethical challenges—particularly around false positives, transparency, and accountability when decisions become automated.
+Emotionally, this unit made me reflect on how dynamic and uncertain the field has become. It increased my appreciation for continuous learning, adaptability, and future-focused thinking. It also made me aware of my own biases—particularly my tendency to trust structured frameworks rather than questioning whether they will adapt to future threats.
+________________________________________
+NOW WHAT?
+For the remainder of the module and in my professional development, I aim to integrate these learnings by:
+•	Applying behavioural risk concepts when assessing the international supply chain for the Pampered Pets assignment, recognising bias, trust, and decision-quality issues.
+•	Incorporating AI-driven risk models (such as anomaly detection or Bayesian analysis) into future SRM recommendations, especially in the quantitative assignment for Unit 11.
+•	Evaluating risk frameworks critically, selecting those that scale with automation, supply-chain complexity, and regulatory expansion.
+•	Factoring reputational risk into all future recommendations, treating quality assurance and transparency as strategic assets.
+•	Exploring autonomous defence tools in my own development, building awareness of AI-supported SOC processes and machine-learning-based intrusion analysis.
+•	Remaining proactive in understanding how AI, regulation, and globalisation reshape risk landscapes, rather than relying on static models.
+•	Documenting these trends in my e-portfolio as evidence of reflective growth.
+Unit 11 strengthened my appreciation of how SRM is shifting from reactive protection to predictive, automated, and behaviour-aware ecosystem governance. This insight will guide both my academic work and my future in the cybersecurity and risk management profession.
+________________________________________
+4. References (Unit 11)
+•	Aven, T. & Thekdi, S. (2025). Risk Science. Routledge.
+•	Pineiro-Chousa, J. et al. (2017). Managing Reputational Risk through Environmental Management and Reporting: An Options Theory Approach. Sustainability, 9(3), 376–391.
+•	Fahimnia, B. et al. (2019). Behavioral Operations and Supply Chain Management – A Review and Literature Mapping. Decision Sciences, 50(6), 1127–1183.
+•	Ridley, A., McCloskey, J. & Mountain, D. (2018). Machine Learning for Autonomous Cyber Defense. The Next Wave, 22(1), 7–14.
+•	Marks, L. et al. (2019). The Optimal Risk Management Framework: Identifying the Requirements & Selecting the Framework.
+•	Sutton, D. (2021). Information Risk Management.
+•	Popov, G., Lyon, B. & Hollcroft, B. (2022). Risk Assessment.
+
