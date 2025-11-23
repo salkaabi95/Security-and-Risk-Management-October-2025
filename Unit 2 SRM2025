@@ -1,0 +1,49 @@
+What?
+
+Unit 2 deepened my understanding of the Risk Management Process (RMP) by contrasting qualitative and quantitative approaches and examining the essential role of users throughout the process. The Open FAIR™ model introduced a highly structured way to quantify risk in financial terms using loss magnitude and event frequency, offering an alternative to traditional qualitative likelihood scoring (Josey, Hietala & Jones, 2014). In parallel, AIRMIC’s ERM framework reinforced the idea that the RMP is an organisational governance mechanism, not merely a technical tool (AIRMIC, 2010).
+
+The reading by Renn, Beier and Schweizer (2021) added a social-systems dimension by showing how digitalisation introduces interconnected risks that cannot be assessed purely through technical metrics. This aligned closely with the seminar theme on AI in risk management, where I examined how NLP and machine-learning tools can enhance predictive accuracy and data processing efficiency (Kalogiannidis et al., 2024).
+
+Through peer responses in the collaborative discussion, I also saw how user participation influences the risk picture. Several peers highlighted that failing to involve those affected by a system—whether operational staff or impacted communities—leads to blind spots and untested assumptions. This reinforced the principle from Unit 1 that risk is never purely technical: it arises from the interaction between people, systems and uncertainty.
+
+So what?
+
+This unit shifted my view of risk assessment from a “method choice” to a strategic decision that shapes downstream mitigations. Quantitative models such as Open FAIR™ are powerful, but they rely heavily on valid data and assumptions. Meanwhile, qualitative assessments support richer stakeholder dialogue but can introduce subjective biases. Understanding these trade-offs made me realise that neither method is “better”—the right approach depends on context, data availability and organisational maturity.
+
+What particularly stood out was the impact of user participation. Renn et al. (2021) emphasise that risk is co-constructed socially; therefore, excluding users diminishes both the accuracy and legitimacy of the RMP. During the seminar, discussing AI systems highlighted this point even more: AI-driven predictions only work if those who interact with the system inform the data requirements, feature selection and evaluation of outputs. Without this, AI becomes a black box, and its risks—bias, misinterpretation, over-reliance—are amplified.
+
+Emotionally, I felt more confident in Unit 2 because I could connect the theoretical models to practical implications like business continuity, NLP-driven risk scanning and user-centred design. However, I also realised how easy it is to treat AI as an objective solution, which is misleading. This was an important moment of critical awareness for me.
+
+Now what?
+
+Going forward, I plan to:
+
+Integrate both qualitative and quantitative elements in team project assessments rather than relying on one approach.
+
+Ensure user and stakeholder input is built into early stages of our team’s RMP (e.g., interviewing or surveying hypothetical users).
+
+When applying AI or automated analysis, emphasise human-in-the-loop decision-making to avoid unjustified trust in algorithmic outputs.
+
+Use Open FAIR™ concepts selectively—especially event frequency and loss magnitude—to strengthen the clarity and defensibility of mitigations.
+
+Continue building my skills in evidence-based reasoning, which will support the module's final project and the 1000-word reflection.
+
+Overall, Unit 2 developed both my analytical and collaborative abilities, reinforcing the need for structured but participatory risk processes.
+
+4. References (Unit 2)
+
+Below is a clean Harvard-style reference list you can paste into your portfolio.
+
+AIRMIC (2010) A Structured Approach to Enterprise Risk Management. AIRMIC, Alarm, IRM.
+
+Josey, A., Hietala, J. and Jones, J. (2014) Introducing The Open Group Open FAIR™ Risk Analysis Tool. The Open Group.
+
+Kalogiannidis, S. et al. (2024) ‘The role of artificial intelligence technology in predictive risk assessment for business continuity: A case study of Greece’, Risks, 12(2), p. 19.
+
+Renn, O., Beier, G. and Schweizer, P.J. (2021) ‘The opportunities and risks of digitalisation for sustainable development: a systemic perspective’, GAIA, 30(1), pp. 23–28.
+
+Salter, C., Saydjari, O., Schneier, B. and Wallner, J. (1998) ‘Toward a secure system engineering methodology’, Proceedings of the 1998 IEEE Symposium on Security and Privacy.
+
+Aven, T. and Thekdi, S. (2025) Risk Science. Routledge.
+
+Wang, J., Neil, M. and Fenton, N. (2020) ‘A Bayesian network approach for cybersecurity risk assessment implementing and extending the FAIR model’, Computers & Security, 89, p.101659.
