@@ -1,0 +1,26 @@
+Unit 5: An Introduction to Security and Risk Standards in Industry and the Enterprise
+Unit 5 Reflection
+What?
+Unit 5 focused on understanding how industry standards support security and risk management. The readings introduced key standards such as ISO 31000 (risk management principles), ISO/IEC 27001 (information security management systems), the NIST Cybersecurity Framework, and sector-specific frameworks like HIPAA (healthcare), PCI-DSS (financial transactions) and ISA/IEC 62443 (industrial control systems).
+Barafort, Mesquida & Mas (2018) provided a structured method for applying ISO 31000 within IT organisations, emphasising process maturity and continual improvement. The Kirvan (2021) article helped me compare frameworks and understand which standards fit which industries, while Aven & Thekdi (2025) reinforced the role of standards in reducing uncertainty and guiding decision-making.
+Through the formative activity, I selected frameworks for three organisations and posted my responses in the class Wiki. I also completed the GDPR case-study exercise, which required identifying the breached GDPR principle and proposing mitigations.
+So what?
+This unit made me appreciate the practical importance of standards as anchors for both risk management and threat modelling. In previous units, risk analysis felt conceptual; Unit 5 showed that standards create constraints and expectations that shape how organisations identify and prioritise risks.
+For example, mapping threat models (from Units 3–4) to ISO/IEC 27001 controls clarified how high-level threats translate into operational requirements. Reviewing the GDPR case study demonstrated how failures in organisational processes—such as insufficient access controls or data-handling documentation—lead directly to regulatory violations. This illustrated how compliance is intertwined with technical risk management.
+Emotionally, this unit felt more grounded and practical; it connected the theoretical ideas of risk science (Aven & Thekdi) with concrete regulatory and operational frameworks. Collaborative peer work in the Wiki also helped me see how others justified framework choices and reinforced the idea that selecting standards is context-dependent—not a one-size-fits-all exercise.
+Now what?
+Going forward, I plan to:
+•	Incorporate standards mapping into my team project by aligning each identified threat with appropriate controls from ISO/IEC 27001 or NIST CSF.
+•	Use ISO 31000’s principles to structure our risk-assessment workflow (establish context → assess → treat → monitor → communicate).
+•	Apply lessons from the GDPR case analysis in the final project, ensuring we consider privacy impacts and regulatory duties early in the design.
+•	Continue contributing to the Wiki to support collaborative learning and refine my understanding of how standards influence governance and system architecture.
+Overall, Unit 5 strengthened my ability to choose, justify and apply standards in real-world contexts, which will be essential for both the final project and my broader professional development.
+________________________________________
+References (Unit 5)
+•	Aven, T. & Thekdi, S. (2025). Risk Science. Routledge.
+•	Barafort, B., Mesquida, A.L. & Mas, A. (2018). ISO 31000-based integrated risk management process assessment model for IT organisations. Computer Standards & Interfaces, 57, 41–50. https://doi.org/10.1016/j.csi.2017.12.003
+•	Kirvan, P. (2021). Top 15 IT security frameworks and standards explained. TechTarget / SearchSecurity. https://www.techtarget.com/searchsecurity/tip/Top-IT-security-frameworks-and-standards
+•	Sutton, D. (2021). Information Risk Management, Appendix G.
+•	Adhillah, M.N. et al. (2025). ‘Systematic Literature Review: The Development of Enterprise Risk Management’, Jurnal Manajemen Bisnis, Akuntansi dan Keuangan, 4(1), 81–100.
+•	Data Protection Commission (2020). Case Studies. https://www.dataprotection.ie/en/dpc-guidance/case-studies
+
