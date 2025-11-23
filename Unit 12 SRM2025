@@ -1,0 +1,70 @@
+Unit 12: The Great Debate — What Will Be the Most Influential SRM Trend in the Next 5 Years?
+E-Portfolio Section
+
+My Debate Position: AI-Driven Autonomous Cyber Defence
+Why This Trend Matters Most
+Drawing on Ridley et al. (2018), AI-based autonomous cyber defence represents a structural shift in how organisations will defend systems. Attackers now use automation, deepfakes, adaptive malware, and industrialised cyber-crime ecosystems. Human SOC teams cannot match attacker speed or volume.
+Autonomous defence:
+•	Detects anomalies at machine-scale
+•	Reduces response latency from hours to seconds
+•	Continuously learns from global threat data
+•	Supports resilience requirements for always-online businesses
+This aligns with Nicol et al. (2012), who argue that scalable security solutions must address the “hard problems” of complexity, unpredictability, and adversarial adaptation.
+Key Arguments I Presented
+1.	Human-led response is too slow
+AI automates detection, triage, pattern recognition, and containment.
+2.	Complexity demands automation
+Modern systems (cloud, IoT, API mesh networks) exceed human comprehension.
+3.	Resource shortages
+Organisations face chronic cyber talent gaps; autonomous defence fills this gap.
+4.	Integration with predictive risk modelling
+AI links risk forecasting with live security operations—something no other trend integrates as deeply.
+5.	Direct impact on regulatory compliance
+Faster detection and containment supports GDPR Article 32 and NIS2 requirements.
+Counterarguments & Rebuttals
+•	Risk of false positives → mitigated through supervised learning, human review loops
+•	Opaque decision-making → demand for explainable AI (XAI)
+•	Adversarial attacks against ML → multi-layered validation and ensemble models
+________________________________________
+4. Reflection on the Debate Experience (WHAT / SO WHAT / NOW WHAT)
+WHAT?
+My team advocated for AI-driven autonomous cyber defence and delivered a structured, evidence-based argument. The debate forced us to compare this trend against behavioural risk science, supply chain transparency, and quantum-resistant security models.
+We produced slides summarising:
+•	The technology
+•	Practical applications
+•	Case studies
+•	Limitations
+•	Future projections
+During the seminar, we answered questions about ethical risks, bias in datasets, and governance implications.
+________________________________________
+SO WHAT?
+Participating in the debate helped sharpen several skills:
+1.	Critical comparison
+Instead of simply identifying trends, I evaluated relative impact, scalability, and urgency.
+2.	Communicating complex ideas
+AI defence can be technically dense; simplifying it for diverse audiences improved my clarity.
+3.	Responding under pressure
+The Q&A session highlighted gaps in our initial reasoning, especially around ethics and model drift.
+4.	Integrating theory with practice
+Drawing on Marks (2019) helped frame how AI integrates into optimal risk frameworks.
+Emotionally, the debate made me more confident in articulating risk concepts and engaging with opposing views. I noticed that I initially focused only on technological strengths, but peer questions pushed me to consider social and ethical implications—aligning with the module’s emphasis on holistic SRM.
+________________________________________
+NOW WHAT?
+This debate will inform my future SRM work by:
+•	Encouraging me to evaluate risk trends through multiple lenses—technical, behavioural, ethical, legal
+•	Making room for uncertainty and rapid evolution when choosing risk models or frameworks
+•	Increasing my awareness of how persuasive communication influences organisational decisions
+•	Motivating me to continue developing skills in AI-driven security tools, including anomaly detection and behavioural analytics
+For my e-portfolio, this debate shows my ability to:
+•	Work collaboratively
+•	Analyse emerging risks
+•	Form reasoned arguments
+•	Produce reflective insights
+________________________________________
+________________________________________
+6. References (Unit 12)
+•	Marks, L. (2019). The Optimal Risk Management Framework: Identifying the Requirements and Selecting the Framework.
+•	Nicol, D.M. et al. (2012). Science of Security Hard Problems: A Lablet Perspective. University of Illinois.
+•	Ridley, A., McCloskey, J. & Mountain, D. (2018). Machine Learning for Autonomous Cyber Defense. The Next Wave, 22(1).
+•	Rolfe, G., Freshwater, D. & Jasper, M. (2001). Critical Reflection in Nursing and the Helping Professions. Palgrave Macmillan.
+
